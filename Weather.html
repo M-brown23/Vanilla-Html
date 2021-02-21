@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
+<style>
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* CSS Reset ENDS */
+
+/* All custom css */
+
+  div {
+    border: 1px solid #000;
+    height: 50px;
+  }
+
+  .mobile-nav{
+
+    background-color: lightblue;
+    height: 50px;
+  }
+
+  .burger-menu,
+  .logo,
+  .search{
+
+    height: 45px;
+    display: inline-block;
+    width: 20%;
+  }
+  .burger-menu{
+    background-color: green
+  }
+
+  .logo{
+
+    background-color: black;
+    width: 55.5%;
+  }
+
+  .search{
+
+    background-color: white;
+  }
+
+.daily-section{
+
+  background-color: blue;
+  height: 100px;
+  height: 25vh;
+  margin: 1vh;
+}
+
+.current-city{
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 30px;
+  width: 100%;
+  height: 30px;
+  padding-left: 10px;
+  background-color: yellow;
+}
+
+.weather-image,
+.weather-info{
+
+  margin-top: 20px;
+padding-top: 50px;
+display: inline-block;
+height: 30px;
+
+width: 20%;
+width: 21vh;
+height: 60px;
+background-color: lightblue;
+}
+
+.map-section{
+
+  background-color: purple;
+  height: 150px;
+  padding-top: 30px;
+  margin: 1vh;
+}
+
+.map{
+
+  height: 78%;
+  background-color: green;
+}
+
+.map-title,
+.expand{
+  position: absolute;
+  background-color: #32a261;
+  height: 3.5vh;
+  display: inline-block;}
+
+
+
+.expand{
+
+  width: 21.5%;
+  text-align: center;
+}
+
+
+.favorite-section{
+
+  background-color: pink;
+  height: 20px;
+}
+
+.footer-section{
+
+  background-color: red;
+  height: 80px;
+}
+
+</style>
+</head>
+<body>
+
+<div class="mobile-container">
+
+<!-- Mobile Nav Section -->
+<div class="mobile-nav">
+  <div class="burger-menu"></div>
+  <div class="logo"></div>
+  <div class="search"></div>
+</div>
+<!-- Mobile Nav Section ENDS-->
+
+<!-- Daily Section -->
+<div class="daily-section">
+  <h3 class="current-city">wellington city</h3>
+  <div class="weather-image"></div>
+  <div class="weather-info"></div>
+</div>
+<!-- Daily Section ENDS-->
+
+<!-- Map Section -->
+<div class="map-section">
+  <div class="map"></div>
+  <div class="map-title">favorites</div>
+  <div class="expand">X</div>
+</div>
+<!-- Map Section ENDS -->
+
+<!-- Favourite Section -->
+<div class="favourite-section">
+
+</div>
+<!-- Favourite Section ENDS-->
+
+<!-- Footer Section -->
+<div class="footer-section">
+  <div class="left-section"></div>
+  <div class="middle-section"></div>
+  <div class="right-section"></div>
+</div>
+<!-- Footer Section  ENDS-->
+
+
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+</body>
+</html>
